@@ -6,16 +6,11 @@ import java.util.Collections;
  
 class GFG {
  
-    /* function to check whether two strings are
-    anagram of each other */
     static boolean areAnagram(char[] str1, char[] str2)
     {
-        // Get lenghts of both strings
         int n1 = str1.length;
         int n2 = str2.length;
  
-        // If length of both strings is not same,
-        // then they cannot be anagram
         if (n1 != n2)
             return false;
  
@@ -31,7 +26,6 @@ class GFG {
         return true;
     }
  
-    /* Driver Code*/
     public static void main(String args[])
     {
         char str1[] = { 't', 'e', 's', 't' };
@@ -46,5 +40,3 @@ class GFG {
                                + " anagram of each other");
     }
 }
- 
-// This code is contributed by Nikita Tiwari.
