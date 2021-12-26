@@ -43,3 +43,5 @@ public class anagram_java_2_count {
                              "not anagram of each other");
     } 
 }
+
+// complexity O(n)
