@@ -1,1 +1,1 @@
-# Algorithm solving practises repo
+# Algorithm solving practices repo
