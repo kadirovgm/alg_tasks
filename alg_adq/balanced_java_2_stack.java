@@ -15,7 +15,6 @@ public class BalancedBrackets {
             char x = expr.charAt(i);
             if (x == '(' || x == '[' || x == '{')
             {
-                // Push the element in the stack
                 stack.push(x);
                 continue;
             }
@@ -63,3 +62,4 @@ public class BalancedBrackets {
             System.out.println("Not Balanced ");
     }
 }
+// complexity O(n)
