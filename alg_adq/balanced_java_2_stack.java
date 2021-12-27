@@ -1,7 +1,7 @@
 
 import java.util.*;
  
-public class BalancedBrackets {
+public class balanced_java_2_stack {
  
     static boolean areBracketsBalanced(String expr)
     {
