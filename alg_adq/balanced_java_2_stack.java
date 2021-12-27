@@ -3,27 +3,24 @@ import java.util.*;
  
 public class balanced_java_2_stack {
  
-    static boolean areBracketsBalanced(String expr)
+    static boolean areBracketsBalanced(String example)
     {
-        // Using ArrayDeque is faster than using Stack class
-        Deque<Character> stack
-            = new ArrayDeque<Character>();
+        Stack<Character> stack
+            = new Stack<Character>();
  
         // Traversing the Expression
-        for (int i = 0; i < expr.length(); i++)
+        for (int i = 0; i < example.length(); i++)
         {
-            char x = expr.charAt(i);
+            char x = example.charAt(i);
             if (x == '(' || x == '[' || x == '{')
             {
                 stack.push(x);
                 continue;
             }
- 
-            // If current character is not opening
-            // bracket, then it must be closing. So stack
-            // cannot be empty at this point.
+            // Checking that first element is closing
             if (stack.isEmpty())
                 return false;
+
             char check;
             switch (x) {
             case ')':
@@ -45,7 +42,6 @@ public class balanced_java_2_stack {
                 break;
             }
         }
- 
         // Check Empty Stack
         return (stack.isEmpty());
     }
@@ -53,10 +49,10 @@ public class balanced_java_2_stack {
     // Driver code
     public static void main(String[] args)
     {
-        String expr = "([{}])";
+        String example = "([{}])";
  
         // Function call
-        if (areBracketsBalanced(expr))
+        if (areBracketsBalanced(example))
             System.out.println("Balanced ");
         else
             System.out.println("Not Balanced ");
