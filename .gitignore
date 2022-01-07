@@ -1,4 +1,4 @@
-\win_venv_alg\
-\mac_venv_alg\
-\.vscode\
-\.idea\
+win_venv_alg/
+mac_venv_alg/
+.vscode/
+.idea/
