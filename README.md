@@ -1,1 +1,1 @@
-# Algorithm solving practices repo
+# 404 
