@@ -1,3 +1,4 @@
+package array_squares;
 // Complexity O(n*logn)
 public class array_squares {
     public int[] sortedSquares(int[] A) {
