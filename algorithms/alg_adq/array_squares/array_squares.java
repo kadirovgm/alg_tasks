@@ -16,7 +16,7 @@ public class array_squares {
 // Complexity O(n)
 // Using two pointers
 class Solution {
-    public int[] sortedSquares(int[] A) 
+    public int[] sortedSquares(int[] A){
         int[] result = new int[A.length];
         int s = 0; // new array
         int i = 0; // left
