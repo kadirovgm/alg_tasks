@@ -1,5 +1,4 @@
 package balanced_brackets;
-import java.util.Arrays;
 import java.util.Stack;
 
 public class balanced_java_misha {
@@ -12,15 +11,15 @@ public class balanced_java_misha {
             if  (c == '[' || c == '(' || c == '{') {
                 stack.push (c);
             } else if (c == ']'){
-                if (stack.isEmty() || stack.pop() != '['){
+                if (stack.isEmpty() || stack.pop() != '['){
                     return false;
                 }
             } else if (c == ')'){
-                if (stack.isEmty() || stack.pop() != '('){
+                if (stack.isEmpty() || stack.pop() != '('){
                     return false;
                 }
             } else if (c == '}') {
-                if (stack.isEmty() || stack.pop() != '{'){
+                if (stack.isEmpty() || stack.pop() != '{'){
                     return false;
                 }
             }

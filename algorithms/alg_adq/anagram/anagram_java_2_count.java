@@ -1,3 +1,5 @@
+package anagram;
+
 public class anagram_java_2_count {
 
     static int NO_OF_CHARS = 256;

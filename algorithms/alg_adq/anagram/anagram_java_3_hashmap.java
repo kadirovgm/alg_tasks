@@ -1,3 +1,4 @@
+package anagram;
 import java.util.*;
 
 public class anagram_java_3_hashmap {

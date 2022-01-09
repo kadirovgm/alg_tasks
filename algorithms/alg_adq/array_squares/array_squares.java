@@ -1,4 +1,6 @@
 package array_squares;
+import java.util.Arrays;
+
 // Complexity O(n*logn)
 public class array_squares {
     public int[] sortedSquares(int[] A) {

@@ -1,7 +1,6 @@
-// anagrams
-
+package anagram;
 import java.util.Arrays;
- 
+
 class GFG {
  
     static boolean areAnagram(char[] str1, char[] str2)
